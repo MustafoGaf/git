@@ -2,3 +2,17 @@ h1 {
   font-size : 22px;
 color : red;
 }
+.nav{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 10px;
+}
+.nav_links {
+  grid-column: 2;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+.nav_links li:hover{
+  color: red;
+}
